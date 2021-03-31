@@ -5,12 +5,12 @@
 </head>
 <body>
 <h1 id='hallo'>Hello world!</h1>
-<button onclick=func()>изменить цвет</button> 
+<button onclick="init()">изменить цвет</button> 
 
 <script>
 var hello;
-hello = document.getElementById("hallo");
-function() { 
+function init() { 
+    hello = document.getElementById("hallo");
     hello.style.color = 'yellow';
 </script>
 </body>
